@@ -26,7 +26,6 @@ class Instantgrep < Formula
     bin.install "instantgrep-daemon"
     bin.install "instantgrep-bench"
     bin.install "ig_client"
-    bin.install "ig.py"
     # Install the NIF shared library
     (lib/"instantgrep").install Dir["priv/*"]
     bin.install_symlink "instantgrep" => "igrep"
