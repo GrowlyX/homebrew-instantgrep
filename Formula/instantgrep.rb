@@ -1,20 +1,20 @@
 class Instantgrep < Formula
   desc "Fast regex search using trigram indexes"
   homepage "https://github.com/GrowlyX/instantgrep"
-  version "0.0.6"
+  version "0.0.7"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/GrowlyX/instantgrep/releases/download/v0.0.6/instantgrep-darwin-arm64.tar.gz"
-      sha256 "91540ee272b47433ec7faa19dbdef89bdfeeb899eb1ee302ccef3796e02dfcb1"
+      url "https://github.com/GrowlyX/instantgrep/releases/download/v0.0.7/instantgrep-darwin-arm64.tar.gz"
+      sha256 "74e1cbba515923bdd905fc12ab5b692e19ffd08b8c4a7d59c98c919f39d4e048"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/GrowlyX/instantgrep/releases/download/v0.0.6/instantgrep-linux-amd64.tar.gz"
-      sha256 "757f620067e879237f3690c646d3a2ba1b0d718a5fe0d37ea1b8175add953f67"
+      url "https://github.com/GrowlyX/instantgrep/releases/download/v0.0.7/instantgrep-linux-amd64.tar.gz"
+      sha256 "2cb0a94946ab0de1889d4049e8bde3f2628655f07cee6b9157532c7bc3d1d751"
     end
   end
 
